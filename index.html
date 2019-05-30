@@ -10,7 +10,9 @@
         <a class="main-header-logo">
           <img src="img/logo-header.svg" width="109" height="19" alt="Логотип магазина «Техномарт»">
         </a>
-        <p>Поиск</p> <!--Здесь будет форма-->
+        <form class="search-form" action="#" method="get">
+            <input type="text" name="search" value="" placeholder="Поиск:">
+        </form>
         <a class="bookmark-button" href="#">Закладки: 0</a>
         <a class="cart-button" href="#">Корзина: 0</a>
         <a class="offer-button" href="#" >Оформить заказ</a>
@@ -306,5 +308,25 @@
           <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
       </div>
     </footer>
+    <section class="modal modal-write-us">
+      <h2 class="visually-hidden">Обратная связь</h2>
+      <form class="write-us" method="post" action="#">
+        <label for="write-us-name">Ваше имя:</label>
+        <input id="write-us-name" type="text" name="name" placeholder="Представьтесь, пожалуйста" class="write-us-name">
+        <label for="write-us-email">Ваш e-mail:</label>
+        <input id="write-us-email" type="email" name="email" placeholder="email@example.com" class="write-us-mail">
+        <label for="write-us-text">Текст письма:</label>
+        <textarea id="write-us-text" name="message" placeholder="В свободной форме" class="write-us-text"></textarea>
+        <input type="submit" class="button button_submit">
+      </form>
+      <button type="button" class="modal-close" aria-label="Закрыть окно обратной связи"></button>
+    </section>
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <p>
+        <img src="img/map_full_size.jpg" width="940" height="446" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      </p>
+      <button type="button" class="modal-close" aria-label="Закрыть окно Как до нас добраться"></button>
+    </section>
   </body>
 </html>
