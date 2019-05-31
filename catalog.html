@@ -11,7 +11,8 @@
       <img src="img/logo-header.svg" width="109" height="19" alt="Логотип магазина «Техномарт»">
     </a>
     <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-      <input type="text" name="search" value="" placeholder="Поиск:">
+      <label for="search-form">Поиск</label>
+      <input type="text" name="search" value="" placeholder="Поиск:" id="search-form">
     </form>
     <a class="bookmark-button" href="#">Закладки: 0</a>
     <a class="cart-button" href="#">Корзина: 10</a>
@@ -100,7 +101,7 @@
           </li>
         </ul>
       </fieldset>
-      <input type="submit" placeholder="Показать">
+      <button type="submit" class="button-show">Показать</button>
     </form>
   </section>
   <section class="sorting">
@@ -315,11 +316,11 @@
       <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
   </div>
 </footer>
-<section class="modal modal-buy">
+<div class="modal modal-buy" hidden>
   <h2>Товар добавлен в корзину!</h2>
   <a href="#" class="button make-order-button">Оформить заказ</a>
   <button type="button" class="button continue-buy-button">Продолжить покупки</button>
-  <button type="button" class="modal-close" aria-label="Закрыть сообщение о добавлении в корзину"></button>
-</section>
+  <button type="button" class="modal-close" role="button" hidden>Закрыть сообщение о добавлении в корзину</button>
+</div>
 </body>
 </html>
