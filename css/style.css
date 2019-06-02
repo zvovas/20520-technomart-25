@@ -249,6 +249,158 @@ background-color: #ba2732;
 }
 
 
+/* INNER PAGE */
+.breadcrumbs {
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.page-title {
+  color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: #f2f6f8;
+}
+
+.filters {
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.product-filter fieldset {
+  border: none;
+}
+
+.product-filter legend {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.product-filter ul {
+  list-style: none;
+}
+
+.product-filter label {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.product-filter button {
+  font: inherit;
+  color: #000000;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.product {
+  border: solid 1px #e5e5e5;
+}
+
+.product:hover,
+.product:focus {
+  border: none;
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.catalog-item-type,
+.catalog-item-model {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.product del {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  color: #999999;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.product .price {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+
+  background-color: #ee3643;
+}
+
+.button-cart {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #63a63e;
+}
+
+.button-cart:hover,
+.button-cart:focus {
+  background-color: #5fbb2d;
+}
+
+.button-cart:active {
+  background-color: #518534;
+}
+
+.button-bookmark {
+  color: #32425c;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: solid 3px #63a63e;
+}
+
+.button-bookmark:hover,
+.button-bookmark:focus {
+  border: solid 3px #32425c;
+}
+
+.button-bookmark:active {
+  color: rgba(50, 66, 92, 0.3);
+
+  border: solid 3px rgba(50, 66, 92, 0.3);
+}
+
+.new-label {
+  /* font-family: "PT Sans Narrow", sans-serif;
+  Единственное место, где используется зауженная версия PT Sans
+  скорее всего тогда лучше экспортировать надпись как изображение svg
+  font-size: 16px;
+  line-height: 18px; */
+
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
 
 /* FOOTER */
 .footer-top {
