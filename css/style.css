@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+
+/* HEADER */
+
+
 .header-top {
   font-size: 17px;
   line-height: 18px;
@@ -192,4 +196,95 @@ background-color: #ba2732;
 
 .site-navigation a:active {
   background-color: #1d2739;
+}
+
+
+
+
+
+
+/* FOOTER */
+.footer-top {
+  background-color: #32425c;
+}
+
+.footer-logo {
+  background-color: #ee3643;
+}
+
+.footer-top address,
+.footer-top .phone {
+  font-style: normal;
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-navigation,
+.footer-categories {
+  list-style: none;
+}
+
+.footer-navigation,
+.footer-navigation a {
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-categories,
+.footer-categories a {
+  color: #ffd180;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus,
+.footer-categories a:hover,
+.footer-categories a:focus {
+  text-decoration: underline;
+}
+
+.footer-navigation a:active,
+.footer-categories a:active {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-copyright {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+
+  background-color: #212a3a;
+}
+
+.social-button:hover,
+.social-button:active {
+  background-color: #ee3643;
+}
+
+.mail-to,
+.creators {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.mail-to a,
+.creators a {
+  color: #ffd180;
 }
