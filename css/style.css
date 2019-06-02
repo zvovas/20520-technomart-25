@@ -17,8 +17,6 @@ a {
 
 
 /* HEADER */
-
-
 .header-top {
   font-size: 17px;
   line-height: 18px;
@@ -198,8 +196,57 @@ background-color: #ba2732;
   background-color: #1d2739;
 }
 
+/* MAIN PAGE */
+.index-columns {
+  color: #000000;
 
+  background-color: #ffffff;
+}
 
+.about-company h2,
+.contacts h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about-company p,
+.contacts p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.about-company ul {
+  list-style: none;
+}
+
+.about-company li {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.button {
+  font: inherit;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #ee3643;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #ca2c37;
+}
+
+.button:active {
+  background-color: #ba2732;
+}
 
 
 
