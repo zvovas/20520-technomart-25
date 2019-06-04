@@ -212,7 +212,7 @@ background-color: #ba2732;
 
 .about-company p,
 .contacts p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
@@ -251,7 +251,7 @@ background-color: #ba2732;
 
 /* INNER PAGE */
 .breadcrumbs {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -274,7 +274,7 @@ background-color: #ba2732;
 }
 
 .filters {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -324,7 +324,7 @@ background-color: #ba2732;
 
 .catalog-item-type,
 .catalog-item-model {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   color: #000000;
   font-size: 18px;
@@ -332,7 +332,7 @@ background-color: #ba2732;
 }
 
 .product del {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   color: #999999;
   font-size: 17px;
@@ -340,7 +340,7 @@ background-color: #ba2732;
 }
 
 .product .price {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   color: #ffffff;
   font-size: 17px;
@@ -387,18 +387,6 @@ background-color: #ba2732;
   color: rgba(50, 66, 92, 0.3);
 
   border: solid 3px rgba(50, 66, 92, 0.3);
-}
-
-.new-label {
-  /* font-family: "PT Sans Narrow", sans-serif;
-  Единственное место, где используется зауженная версия PT Sans
-  скорее всего тогда лучше экспортировать надпись как изображение svg
-  font-size: 16px;
-  line-height: 18px; */
-
-  color: #ffffff;
-
-  background-color: #ee3643;
 }
 
 
